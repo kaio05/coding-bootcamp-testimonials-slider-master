@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpeg)
 
 ### Links
 
-- Solution URL: [Coding Bootcamp Testimonials Slider Master](https://your-solution-url.com)
-- Live Site URL: [Coding Bootcamp Testimonials Slider Master](https://kaio05.github.io/coding-bootcamp-testimonials-slider-master)
+- Solution URL: [Coding Bootcamp Testimonials Slider Master](https://www.frontendmentor.io/solutions/coding-bootcamp-testimonials-slider-yVGFx5OSO5)
+- Live Site URL: [Coding Bootcamp Testimonials Slider Master](https://kaio05.github.io/coding-bootcamp-testimonials-slider-master/)
 
 ## My process
 
