@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="styles/media-queries.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="picture-wrapper position--center">
+      <div class="picture-wrapper__scroller-wrapper position--center">
+        <img class="picture-wrapper__picture tanya" src="images/image-tanya.jpg">
+        <img class="picture-wrapper__picture john hidden" src="images/image-john.jpg">
+        <div class="picture-wrapper__scroller position--center">
+          <button id="previous" class="scroll-btn"><img src="images/icon-prev.svg"></button>
+          <button id="next" class="scroll-btn"><img src="images/icon-next.svg"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="quotation-wrapper">
+      <div class="quotation tanya">
+        <p >“ I've been interested in coding for a while but never taken the jump, until now.
+        I couldn't recommend this course enough. I'm now in the job of my dreams and so
+        excited about the future. ”</p>
+        <span class="span-name">Tanya Sinclair</span>
+        <span class="span-profession">UX Engineer</span>
+      </div>
+      <div class="quotation john hidden">
+        <p>“ If you want to lay the best foundation possible I'd recommend taking this course.
+          The depth the instructors go into is incredible. I now feel so confident about
+        starting up as a professional developer. ”</p>
+        <span class="span-name">John Tarkpor</span>
+        <span class="span-profession">Junior Front-end Developer</span>
+      </div>
+        </div>
+    </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/kaio05" target="_blank">Kaio</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

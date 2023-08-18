@@ -1,0 +1,29 @@
+@media screen and (min-width: 800px) {
+    .container {
+        flex-direction: row-reverse;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .wrapper {
+        width: 50vw;
+    }
+
+
+    .quotation {
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        position: absolute;
+        width: 55vw;
+        text-align: left;
+        padding-left: 60px;
+
+        background-position: 150px top;
+    }
+
+    .picture-wrapper__scroller {
+        left: 20%;
+        transform: translate(0, 50%);
+    }
+}
